@@ -5,6 +5,8 @@
 
 
 ```
+wget https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/master/data/domains.txt
+mv domains.txt all.txt
 go get -u github.com/flag007/krect
 
 for i in $(cat all.txt); do waybackurls $i | grep '=http' | krect >> 1.txt; done
