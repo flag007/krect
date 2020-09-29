@@ -1,8 +1,4 @@
 # krect
-一个简单的批量重定向工具， 轻松赢得 $$$
-
-使用方法
-
 
 ```
 wget https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/master/data/domains.txt
